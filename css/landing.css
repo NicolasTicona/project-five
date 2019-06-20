@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro'
 }
 
 .desk-none{
@@ -80,3 +81,338 @@ header .cont-description p span{
 
 /* =========================================== */
 
+.main{
+    padding: 20px;
+}
+
+.mission-container{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.mission-container .top{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mission-container .top .mission-about{
+    width: 40%;
+    text-align: center;
+}
+
+.mission-container .top .mission-about .title{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.mission-container .top .mission-about .title span{
+    color: var(--purple-color)
+}
+
+.mission-container .top .mission-about .mission-description{
+    margin: 28px 0;
+}
+
+.mission-container .top .mission-about .mission-description p{
+    font-size: 18px;
+}
+
+.mission-container .top .mission-about .ilustration{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-container .top .mission-about .ilustration div{
+    display: inline-block;
+}
+
+.mission-container .top .mission-about .ilustration span{
+    font-size: 100px;
+    color: var(--purple-color);
+    margin: 0 28px;
+}
+
+.mission-container .cont-image{
+    width: 40%;
+    position: relative;
+}
+
+.mission-container .cont-image img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+
+.mission-container .bottom {
+    width: 100%;
+}
+
+.mission-container .bottom hr{
+    width: 10%;
+    height: 10px;
+    background: var(--purple-color);
+    margin: 50px auto;
+    border: none;
+}
+
+.mission-container .bottom article p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.mission-container .cont-btn{
+    width: 100%;
+    text-align: center;
+
+    padding: 20px;
+}
+
+.mission-container .cont-btn a{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: var(--purple-color);
+    color: #fff;
+    border-radius: 12px;
+}
+
+/* ===================================== */
+
+.projects-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projects-container .container-title{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.projects-container .projects-module{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects-container .projects-module .module{
+    width: 22%;
+    background: #efefef;
+    padding: 25px;
+    border: 5px;
+}
+
+.projects-container .projects-module .module .cont-image{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.projects-container .projects-module .module .cont-image img{
+    width: 50%;
+}
+
+.projects-container .projects-module .module .cont-info .top{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects-container .projects-module .module .cont-info .top .line-med{
+    width: 70%;
+    height: 5px;
+    border: none;
+    background: var(--main-color);
+}
+
+.projects-container .projects-module .module .cont-info .top a{
+    display: inline-block;
+}
+
+.projects-container .projects-module .module .cont-info .top a img{
+    width: 30px;
+}
+
+.projects-container .projects-module .module .cont-info .med .title{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.projects-container .projects-module .module .cont-info .med p{
+    font-size: 18px;
+}
+
+.projects-container .projects-module .module .cont-info .bottom{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+} 
+
+.projects-container .projects-module .module .cont-info .bottom:hover{
+    background: var(--main-color);
+    transition: all .3s ease;
+}
+
+.projects-container .projects-module .module .cont-info .bottom:hover > button a {
+    color: #fff;
+}
+
+.projects-container .projects-module .module .cont-info .bottom button{
+    padding: 10px 15px;
+    border: none;
+    background: transparent;
+}
+
+.projects-container .projects-module .module .cont-info .bottom button a{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+/* ==================================== */
+
+.team-container{
+    /* height: 100vh; */
+}
+
+.team-container .team-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.team-container .team-main .cont-header h2{
+    color: var(--main-color);
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.team-container .team-main .cont-header .line-sub{
+    width: 40%;
+    height: 8px;
+    background: var(--main-color);
+    border: none;
+    margin: 0 10%;
+}
+
+.team-container .team-main .cont-banner_team {
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-container .team-main .cont-banner_team article p{
+    font-size: 50px;
+    color: rgb(230, 208, 10);
+    font-weight: 700;
+}
+
+.team-container .team-main .cont-banner_team article p span{
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(240, 208, 10);
+}
+
+.team-container .team-main .cont-banner_team img{
+    width: 40%;
+    position: relative;
+}
+
+.team-container .profiles-module{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.team-container .profiles-module .module{
+    width: 20%;
+    text-align: center;
+}
+
+.team-container .profiles-module .module .cont-image{
+    width: 80%;
+    margin: auto;
+}
+
+.team-container .profiles-module .module .cont-info{
+    padding: 25px;
+}
+
+.team-container .profiles-module .module .cont-image img{
+    width: 50%;
+    margin: auto;
+}
+
+.team-container .profiles-module .module .cont-info .name{
+    font-size: 24px;
+    color: var(--main-color);
+}
+.team-container .profiles-module .module .cont-info .ocupation{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #4E4E4E;
+}
+
+.team-container .profiles-module .module .cont-info p{
+    font-size: 17px;
+}
+
+.team-container .profiles-module .module hr{
+    width: 100%;
+    border-color: rgb(211, 209, 209);
+}
+
+.team-container .profiles-module .module .cont-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.team-container .profiles-module .module .cont-networks img{
+    width: 30px;
+    margin: 0px 6px;
+}
+
+/* ===================================================== */
+
+footer{
+    margin-top: 90px;
+    padding: 30px;
+    background: rgb(27, 27, 27);
+}
+
+footer p {
+    font-size: 24px;
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+}
