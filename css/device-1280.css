@@ -1,0 +1,66 @@
+
+:root{
+    --main-color: #E01171;
+    --blue-color: #0F0766;
+    --purple-color: #AB0E86;
+}
+@media screen and (max-width: 1280px){
+
+    header{
+        
+    }
+
+    header .cont-banner img{
+        width: 90%;
+    }
+
+    header .cont-main {
+        /* background: #ccc; */
+        height: 60vh;
+    }
+
+    header .cont-main .menu{
+        border: none; 
+        background: var(--blue-color);
+    }
+
+    header .cont-main .menu a{
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    header .cont-title{
+        left: 0;
+    }
+
+    header .cont-title .title{
+        font-size: 70px;
+    }
+
+
+    .projects-container .projects-module .module{
+        width: 28%;
+    }
+
+
+    .team-container .team-main .cont-header h2{
+        font-size: 70px;
+    }
+    
+    .team-container .team-main .cont-header .line-sub{
+        height: 4px;
+    }
+
+    .team-container .profiles-module{
+        width: 80%;
+    }
+
+    .team-container .profiles-module .module{
+        width: 40%;
+        margin: 20px;
+    }
+
+    .team-container .profiles-module .module .cont-image{
+        width: 60%;
+    }
+}
